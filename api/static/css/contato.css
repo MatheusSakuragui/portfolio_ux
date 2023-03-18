@@ -1,0 +1,163 @@
+body{
+    overflow-x: hidden;
+    background-color: #118AB2;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100px;
+}
+.mobile{
+    display: none;
+}
+.fas.fa-bars.fa-2x{
+    display: none;
+}
+.barra{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    width: 100%;
+    background-color: #2B2D42;
+    display: flex;
+    line-height: 80px;
+    font-family: Arial,sans-serif;
+    
+}
+.barra a{
+    text-decoration: none;
+    left: 890px;
+    padding: 0 15px;
+    color:#06D6A0;
+    position: relative;
+    font-size: 15pt;
+    transition: 1s;  
+}
+a:hover{
+    color: yellowgreen;
+}
+.card{
+    position: relative;
+    background-color: #2B2D42;
+    top: 120px;
+    height: 700px;
+    width: 800px;
+    left: 20%;
+    border-radius: 80px;
+}
+.texto{
+    position: relative;
+    background-color: #2A9D8F;
+    width: 300px;
+    height: 100px;
+    left: 30%;
+    top: 30px;
+    padding: 1px;   
+    border-radius: 40px;
+}
+
+.texto h3{
+    position: relative;
+    font-family: arial;
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+    bottom: 50px;
+ 
+}
+
+.texto p{
+    padding-top: 50px;
+    color: #ffff;
+    font-family: Arial;
+    font-size: 20px;
+    width: 800px;
+}
+
+i{
+    position: relative;
+    top: 97px;
+    right: 35px;
+}
+
+.fas.fa-envelope.fa-2x{
+    color: #DB4437;
+}
+
+.fab.fa-linkedin.fa-2x{
+    color:  #0072b1;
+}
+ 
+@media screen and (max-width: 576px){
+
+    .fas.fa-bars.fa-2x{
+        display: block;
+        position: relative;
+        background: none;
+        border: 0;
+        color: #06D6A0;
+        left: 300px;
+    }
+    .mobile{
+        display: none;
+        width: 100%;
+        background-color: #2B2D42; 
+    
+    }
+    .mobile a {
+    
+        text-decoration: none;
+        color: #2A9D8F;
+        margin-left: 35px;
+    }
+    .desktop{
+        display: none;
+    }
+    #nav.ativo .mobile{
+        display: block;
+    }
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+.barra{
+    width: 100%;
+} 
+
+.card{
+    position: relative;
+    max-width: 340px;
+    left: 3%;
+    border-radius: 50px;
+    min-height: 265px;
+}
+
+.texto{
+    left: 49px;
+    width: 230px;
+    height: 30px;
+
+}
+
+.texto p {
+    position: relative;
+    width: 98%;
+    font-size: 14px;
+    left: 10px;
+
+}
+
+.texto h3{
+    font-size: 21px;
+
+}
+
+i{
+    position: relative;
+    top: 88px;
+}
+
+} 
